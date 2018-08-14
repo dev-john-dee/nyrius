@@ -35,13 +35,68 @@ body {
     height: 100%;
     background-image: url("../images/background.png");
 }
+header {
+    height: 90px;
+}
 .container {
+    width: 100%;
     max-width: 960px;
     margin: auto;
 }
 .logo {
     float: left;
     border-top: 3px solid #05abda;
-    text-align: center;
+    line-height: 87px;
 }
+.right-header-block {
+    display: inline-block;
+    float: right;
+    max-width: 500px;
+    position: relative;
+}
+
+.sales-info-block {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    color: #ababab;
+    background-color: #303030;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sales-info-block .phone-color {
+    color: #ffffff;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 90px;
+    margin-left: 10px;
+}
+nav li a {
+    color: #ffffff;
+    font-size: 15px;
+}
+nav li a i {
+    color: #05abda;
+}
+.sales-info-block:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
 

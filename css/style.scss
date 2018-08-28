@@ -1,53 +1,59 @@
 @font-face {
   font-family: 'GothamMedium';
-  src: url("../fonts/GothamMedium.eot");
-  src: url("../fonts/GothamMedium.eot") format("embedded-opentype"), url("../fonts/GothamMedium.woff2") format("woff2"), url("../fonts/GothamMedium.woff") format("woff"), url("../fonts/GothamMedium.ttf") format("truetype"), url("../fonts/GothamMedium.svg#GothamMedium") format("svg"); }
-* {
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
-  color: inherit;
-  -webkit-font-smoothing: antialiased; }
+  src: url('../fonts/GothamMedium.eot');
+  src: url('../fonts/GothamMedium.eot') format('embedded-opentype'),
+  url('../fonts/GothamMedium.woff2') format('woff2'),
+  url('../fonts/GothamMedium.woff') format('woff'),
+  url('../fonts/GothamMedium.ttf') format('truetype'),
+  url('../fonts/GothamMedium.svg#GothamMedium') format('svg');
+}
 
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0; }
+* {
+  margin:0; padding:0;
+  font-size:inherit;
+  color:inherit;
+  -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
 
 a {
-  outline: none;
-  text-decoration: none;
-  font-size: 11px;
-  color: #2d2a2b; }
-
+  outline:none;
+  text-decoration:none;
+  font-size:11px;
+  color:#2d2a2b;
+}
 img {
-  border: none; }
+  border:none;
+}
 
 html {
   height: 100%;
-  font-family: GothamMedium; }
+  font-family: GothamMedium;
+}
 
 body {
   height: 100%;
-  background-image: url("../images/background.png"); }
-
+  background-image: url("../images/background.png");
+}
 header {
-  height: 90px; }
-
+  height: 90px;
+}
 .container {
   width: 100%;
   max-width: 960px;
-  margin: auto; }
-
+  margin: auto;
+}
 .logo {
   float: left;
   border-top: 3px solid #05abda;
-  line-height: 87px; }
-
+  line-height: 87px;
+}
 .right-header-block {
   display: inline-block;
   float: right;
   max-width: 500px;
-  position: relative; }
+  position: relative;
+}
 
 .sales-info-block {
   padding-left: 10px;
@@ -60,44 +66,44 @@ header {
   float: right;
   position: absolute;
   right: 0;
-  top: 0; }
-
+  top: 0;
+}
 .sales-info-block .phone-color {
-  color: #ffffff; }
-
+  color: #ffffff;
+}
 nav {
-  float: right; }
-
+  float: right;
+}
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none; }
-
+  list-style: none;
+}
 nav li {
   display: inline-block;
   text-transform: uppercase;
   line-height: 90px;
-  margin-left: 10px; }
-
+  margin-left: 10px;
+}
 nav li a {
   color: #ffffff;
-  font-size: 15px; }
-
+  font-size: 15px;
+}
 nav li a i {
-  color: #05abda; }
-
+  color: #05abda;
+}
 .sales-info-block:after {
   content: " ";
   display: table;
-  clear: both; }
-
+  clear: both;
+}
 .carousel {
   width: 100%;
   height: 310px;
   background-image: url("../images/carusel.png");
   background-position: left bottom;
-  position: relative; }
-
+  position: relative;
+}
 .btn-connecting {
   background-color: rgba(17, 125, 175, 0.9);
   height: 58px;
@@ -109,25 +115,26 @@ nav li a i {
   text-transform: uppercase;
   padding-right: 10px;
   padding-left: 10px;
-  line-height: 58px; }
+  line-height: 58px;
+}
 
 div.owl-dots {
   position: absolute;
   top: 20px;
-  right: 20px; }
-
+  right: 20px;
+}
 .owl-carousel button.owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #117daf;
+  background-color: rgb(17, 125, 175);
   margin-left: 10px;
   display: inline-block;
-  margin-left: 10px; }
-
+  margin-left: 10px;
+}
 .owl-carousel button.owl-dot:focus {
   background-color: rgba(17, 125, 175, 0.5);
-  outline: none; }
-
+  outline: none;
+}
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
   display: inline-block;
   position: absolute;
@@ -137,25 +144,26 @@ div.owl-dots {
   background-color: rgba(17, 125, 175, 0.2);
   border: solid 6px #fff;
   border-radius: 100%;
-  color: #fff; }
-
+  color: #fff;
+}
 .owl-carousel .owl-nav button.owl-prev span, .owl-carousel .owl-nav button.owl-next span {
   display: inline-block;
   height: 58px;
-  line-height: 54px; }
-
+  line-height: 54px;
+}
 .owl-carousel .owl-nav button.owl-prev:focus, .owl-carousel .owl-nav button.owl-next:focus {
-  outline: none; }
-
+  outline: none;
+}
 .owl-carousel .owl-nav button.owl-prev:active, .owl-carousel .owl-nav button.owl-next:active {
-  background-color: rgba(17, 125, 175, 0.5); }
-
+  background-color: rgba(17, 125, 175, 0.5);
+}
 .owl-carousel .owl-nav button.owl-prev {
   top: 100px;
-  left: 30px; }
-
+  left: 30px;
+}
 .owl-carousel .owl-nav button.owl-next {
   top: 100px;
-  right: 30px; }
+  right: 30px;
+}
 
-/*# sourceMappingURL=style.css.map */
+
